@@ -7,3 +7,8 @@ Feature: eat godogs
         Given there are 12 godogs
         When I eat 5
         Then there should be 7 remaining
+
+    Scenario: Eat 10 out of 12
+        Given there are 12 godogs
+        When I eat 10
+        Then there should be 2 remaining
